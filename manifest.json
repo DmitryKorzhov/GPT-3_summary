@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-gpt3-summarizer",
+	"name": "GPT3 Summarizer",
+	"version": "1.0.1",
+	"minAppVersion": "0.12.0",
+	"description": "Summarize Text with GPT3",
+	"author": "Bram Adams",
+	"authorUrl": "https://www.bramadams.dev/",
+	"isDesktopOnly": false
+}
