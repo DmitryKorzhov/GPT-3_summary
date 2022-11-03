@@ -57,6 +57,7 @@ export default class GPT3Summarizer extends Plugin {
 				const text = editor.getSelection();
 				const summaryPrompt = `Summarize this text into one tweet.\n\nText:\n${text}\n\nSummary:\n`
 				const summary = await this.callOpenAIAPI(editor.getSelection(), summaryPrompt);
+				editor.replaceSelection(`#### Summary:${summary}\n\n#### Full answer:\n${editor.getSelection()}`);
 			}
 		});
 		
