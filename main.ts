@@ -1,8 +1,6 @@
 import { App, Editor, MarkdownView, Notice, Plugin, PluginSettingTab, Setting, request, MetadataCache } from 'obsidian';
 
 
-// Remember to rename these classes and interfaces!
-
 interface GPT3SummarizerSettings {
 	apiKey: string;
 }
