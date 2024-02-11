@@ -26,7 +26,7 @@ export default class GPT3Summarizer extends Plugin {
 			body: JSON.stringify({
 				"prompt": prompt,
 				"max_tokens": 250,
-				"temperature": 0.3,
+				"temperature": 0.2,
 				"best_of": 3
 			})
 		});
