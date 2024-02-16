@@ -20,7 +20,7 @@ export default class GPT3Summarizer extends Plugin {
 			method: 'POST',
 			headers: {
 				'Authorization': `Bearer ${this.settings.apiKey}`,
-				'Content-Type': 'application/json'
+				'Content-': 'application/json'
 			},
 			contentType: 'application/json',
 			body: JSON.stringify({
